@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    width: 100vw;
+    font-family: 'Quicksand', sans-serif;
+    background-color: #f9f9f9;
+}
+#cod-rastreamento
+{
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 5px;
+    padding: 0 0 0 5px;
+}
+#btn-ir-link {
+    font-family: 'Poppins', sans-serif;
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #81d742;
+    border: none;
+    padding: 5px;
+    border-radius: 6px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.09);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.09);
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.09);
+    color: white;
+    transition: all 1s ease-in-out;
+    opacity: 0;
+}
+
+#btn-ir-link::after {
+    content: url(up-link.svg);
+    padding: 5px;
+}
+#acompanhamento-content a {
+    text-decoration: none;
+}
+
+#acompanhamento-content a button:hover {
+    cursor: pointer;
+}
