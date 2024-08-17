@@ -44,3 +44,15 @@ body {
 #acompanhamento-content a button:hover {
     cursor: pointer;
 }
+div#acompanhamento-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+input#cod-rastreamento {
+    line-height: 32px;
+    text-align: center;
+    border-radius: 3px;
+    width: 100%;
+}
